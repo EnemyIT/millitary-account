@@ -1,0 +1,59 @@
+.dashboard {
+    display: flex;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+}
+
+.dashboard-item {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.chart-container {
+    height: 250px;
+    width: 250px;
+    margin-left: 750px;
+}
+.chart-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.chart-data p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin: 0;}
+
+.name {
+    border-width: 0.6px;
+    margin-bottom: 0;
+}
+
+.dashboard-roshod{
+    margin-right: 200px;
+}
+
+.dashboard-texnika{
+    margin-right: 400px;
+}
+
+.dashboard2{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    margin-bottom: 200px;
+}

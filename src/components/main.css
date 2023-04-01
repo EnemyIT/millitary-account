@@ -1,0 +1,18 @@
+#circle-diagram {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.surname-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+}

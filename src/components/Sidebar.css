@@ -1,0 +1,88 @@
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    /* выравниваем по вертикали */
+    padding: 1rem;
+    /* добавляем отступы */
+    background-color: #222;
+}
+
+.sidebar-logo {
+    height: 50px;
+    /* задаем высоту логотипу */
+    margin-right: 1rem;
+    /* добавляем отступ справа */
+}
+
+.section{
+    color: #1d1b1b;
+}
+
+.section::before{
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('./logos/ukr.png');
+    filter: blur(5px);
+}
+
+.section-li{
+    font-weight:bolder;
+}
+
+h2 {
+    color: #fff;
+    /* меняем цвет текста */
+    margin: 0;
+    /* убираем отступы */
+    font-size: 24px;
+    /* задаем размер шрифта */
+}
+
+nav {
+    margin-top: 1rem;
+    /* добавляем отступ сверху */
+}
+
+ul {
+    list-style: none;
+    /* убираем маркеры */
+    padding: 0;
+    /* убираем отступы */
+    margin: 0;
+    /* убираем отступы */
+}
+
+li {
+    margin-bottom: 0.5rem;
+    /* добавляем отступ снизу */
+}
+
+a {
+    display: block;
+    /* делаем ссылки блочными */
+    padding: 0.5rem;
+    /* добавляем отступы */
+    color: gray;
+    /* меняем цвет текста */
+    text-decoration: none;
+    /* убираем подчеркивание */
+    transition: background-color 0.2s ease;
+    /* добавляем анимацию при наведении */
+}
+
+a:hover {
+    background-color: #ccc;
+    /* меняем цвет фона при наведении */
+    color: #222;
+    /* меняем цвет текста */
+}
+
+p{
+    color: gray;
+}
